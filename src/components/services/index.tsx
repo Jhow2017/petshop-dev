@@ -1,6 +1,5 @@
 'use client';
 
-import useEmblaCarousel from 'embla-carousel-react';
 import {
     ChevronLeft,
     ChevronRight,
@@ -10,6 +9,7 @@ import {
     Hotel,
     Clock,
 } from 'lucide-react';
+import useEmblaCarousel from 'embla-carousel-react';
 import { WhatsappLogo } from '@phosphor-icons/react';
 
 const services = [
