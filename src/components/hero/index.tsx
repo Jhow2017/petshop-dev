@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { PhoneCallIcon } from 'lucide-react';
 
 //images
+import CatImage from '@ds/assets/imagens/cat-hero.png';
 import DogImage from '@ds/assets/imagens/hero-dog.webp';
 
 export function HeroSection() {
@@ -47,6 +48,16 @@ export function HeroSection() {
                                 </b>
                                 de desconto na primeira compra
                             </p>
+                            <div className="flex mt-4">
+                                <div className="w-32 hidden lg:block">
+                                    <Image
+                                        src={CatImage}
+                                        alt="Cat hero"
+                                        quality={100}
+                                        className="object-fill"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
