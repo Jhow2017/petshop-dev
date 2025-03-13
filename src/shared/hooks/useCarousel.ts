@@ -16,7 +16,6 @@ export function useCarousel(options?: CarouselOptions) {
         loop: false,
         align: 'start',
         slidesToScroll: 1,
-
         ...options,
     });
 
