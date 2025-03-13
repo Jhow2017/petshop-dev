@@ -1,3 +1,9 @@
+import { HeroSection } from '@ds/components/hero';
+
 export default function Home() {
-    return <div>ola mundo !</div>;
+    return (
+        <div>
+            <HeroSection />
+        </div>
+    );
 }
