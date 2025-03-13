@@ -9,8 +9,10 @@ import {
     Hotel,
     Clock,
 } from 'lucide-react';
-import useEmblaCarousel from 'embla-carousel-react';
 import { WhatsappLogo } from '@phosphor-icons/react';
+
+//hooks
+import { useCarousel } from '@ds/shared/hooks/useCarousel';
 
 const services = [
     {
@@ -56,22 +58,7 @@ const services = [
 ];
 
 export function ServicesSection() {
-    const [emblaRef, emblaApi] = useEmblaCarousel({
-        loop: false,
-        align: 'start',
-        slidesToScroll: 1,
-        breakpoints: {
-            '(min-width:768px)': { slidesToScroll: 3 },
-        },
-    });
-
-    const scrollPrev = () => {
-        emblaApi?.scrollPrev();
-    };
-
-    const scrollNext = () => {
-        emblaApi?.scrollNext();
-    };
+    const { emblaRef, scrollPrev, scrollNext } = useCarousel();
 
     return (
         <section className="bg-white py-16">
