@@ -1,8 +1,8 @@
 'use client';
 
-import { WhatsappLogo as PhosphorWhatsappLogo } from '@phosphor-icons/react';
 import { ComponentProps } from 'react';
 import { twMerge } from 'tailwind-merge';
+import { WhatsappLogo as PhosphorWhatsappLogo } from '@phosphor-icons/react';
 
 interface WhatsappLogoProps
     extends ComponentProps<typeof PhosphorWhatsappLogo> {
