@@ -14,7 +14,7 @@ import {
 import { useCarousel } from '@ds/shared/hooks/useCarousel';
 
 //@components
-import { WhatsappLogo } from '../ui/whatsapp-logo';
+import { WhatsappLogo } from '../../ui/whatsapp-logo';
 
 const services = [
     {

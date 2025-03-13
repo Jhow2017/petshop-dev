@@ -1,7 +1,9 @@
 //sections
-import { HeroSection } from '@ds/components/hero';
-import { AboutSection } from '@ds/components/about';
-import { ServicesSection } from '@ds/components/services';
+import {
+    HeroSection,
+    AboutSection,
+    ServicesSection,
+} from '@ds/components/sections';
 
 export default function Home() {
     return (

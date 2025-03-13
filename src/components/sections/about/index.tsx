@@ -6,7 +6,7 @@ import { Check, MapPin } from 'lucide-react';
 //images
 import About01 from '@ds/assets/imagens/about-1.png';
 import About02 from '@ds/assets/imagens/about-2.png';
-import { WhatsappLogo } from '../ui/whatsapp-logo';
+import { WhatsappLogo } from '../../ui/whatsapp-logo';
 
 export function AboutSection() {
     return (

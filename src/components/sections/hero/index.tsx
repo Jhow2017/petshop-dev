@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 //@components
-import { WhatsappLogo } from '../ui/whatsapp-logo';
+import { WhatsappLogo } from '../../ui/whatsapp-logo';
 
 //images
 import CatImage from '@ds/assets/imagens/cat-hero.png';
