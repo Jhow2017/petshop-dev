@@ -60,7 +60,11 @@ const services = [
 ];
 
 export function ServicesSection() {
-    const { emblaRef, scrollPrev, scrollNext } = useCarousel();
+    const { emblaRef, scrollPrev, scrollNext } = useCarousel({
+        breakpoints: {
+            '(min-width:768px)': { slidesToScroll: 3 },
+        },
+    });
 
     return (
         <section className="bg-white py-16">
