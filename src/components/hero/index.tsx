@@ -1,5 +1,7 @@
 import Image from 'next/image';
-import { PhoneCallIcon } from 'lucide-react';
+
+//@components
+import { WhatsappLogo } from '../ui/whatsapp-logo';
 
 //images
 import CatImage from '@ds/assets/imagens/cat-hero.png';
@@ -37,7 +39,7 @@ export function HeroSection() {
                                 className="bg-green-500 hover:bg-green-800 transition px-5 py-2 rounded-md font-semibold 
                                 flex items-center justify-center w-fit gap-2"
                             >
-                                <PhoneCallIcon className="w-5 h-5" />
+                                <WhatsappLogo className="w-5 h-5" />
                                 Contato via whatsApp
                             </a>
                         </div>

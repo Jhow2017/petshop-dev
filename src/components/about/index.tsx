@@ -1,9 +1,12 @@
+'use client';
+
 import Image from 'next/image';
-import { Check, MapPin, PhoneCallIcon } from 'lucide-react';
+import { Check, MapPin } from 'lucide-react';
 
 //images
 import About01 from '@ds/assets/imagens/about-1.png';
 import About02 from '@ds/assets/imagens/about-2.png';
+import { WhatsappLogo } from '../ui/whatsapp-logo';
 
 export function AboutSection() {
     return (
@@ -65,7 +68,7 @@ export function AboutSection() {
                                 gap-2 px-4 py-2 rounded-md
                             "
                             >
-                                <PhoneCallIcon className="w-5 h-5 text-white" />
+                                <WhatsappLogo className="w-5 h-5 text-white" />
                                 Contato via whatsApp
                             </a>
                             <a
