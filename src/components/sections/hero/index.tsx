@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { WhatsappLogo } from '../../ui/whatsapp-logo';
 
 //images
-import CatImage from '@ds/assets/imagens/cat-hero.png';
-import DogImage from '@ds/assets/imagens/hero-dog.webp';
+import CatImage from '@images/hero/cat-hero.png';
+import DogImage from '@images/hero/hero-dog.webp';
 
 export function HeroSection() {
     return (

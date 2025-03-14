@@ -4,9 +4,11 @@ import Image from 'next/image';
 import { Check, MapPin } from 'lucide-react';
 
 //images
-import About01 from '@ds/assets/imagens/about-1.png';
-import About02 from '@ds/assets/imagens/about-2.png';
-import { WhatsappLogo } from '../../ui/whatsapp-logo';
+import About01 from '@images/about/about-1.png';
+import About02 from '@images/about/about-2.png';
+
+//@components
+import { WhatsappLogo } from '@components/ui/whatsapp-logo';
 
 export function AboutSection() {
     return (

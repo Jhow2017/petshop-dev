@@ -2,6 +2,7 @@
 import {
     HeroSection,
     AboutSection,
+    FooterSection,
     ServicesSection,
     TestimonialsSection,
 } from '@ds/components/sections';
@@ -13,6 +14,7 @@ export default function Home() {
             <AboutSection />
             <ServicesSection />
             <TestimonialsSection />
+            <FooterSection />
         </div>
     );
 }

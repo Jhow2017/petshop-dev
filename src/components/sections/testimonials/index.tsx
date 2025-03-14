@@ -7,8 +7,8 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCarousel } from '@ds/shared/hooks/useCarousel';
 
 //images
-import tutor1 from '@images/tutor1.png';
-import tutor2 from '@images/tutor2.png';
+import tutor1 from '@images/testimonials/tutor1.png';
+import tutor2 from '@images/testimonials/tutor2.png';
 
 const testimonials = [
     {
